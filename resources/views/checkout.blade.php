@@ -97,7 +97,7 @@
                     <span class="light-text">Subtotal</span>
                 </div>
                 <div class="col-md-4 offset-md-4">
-                    <span class="light-text" style="display: inline-block">${{ format($subtotal) }}</span>
+                    <span class="light-text" style="display: inline-block">BDT {{ format($subtotal) }}</span>
                 </div>
             </div>
             @if (session()->has('coupon'))
@@ -113,7 +113,7 @@
                         </form>
                     </div>
                     <div class="col-md-4">
-                        <span class="light-text" style="display: inline">- ${{ format($discount) }}</span>
+                        <span class="light-text" style="display: inline">- BDT {{ format($discount) }}</span>
                     </div>
                 </div><hr>
                 <div class="row">
@@ -121,7 +121,7 @@
                         <span class="light-text">New Subtotal</span>
                     </div>
                     <div class="col-md-4 offset-md-4">
-                        <span class="light-text" style="display: inline-block">${{ format($newSubtotal) }}</span>
+                        <span class="light-text" style="display: inline-block">BDT {{ format($newSubtotal) }}</span>
                     </div>
                 </div>
             @endif
@@ -130,7 +130,7 @@
                     <span class="light-text">Tax(21%)</span>
                 </div>
                 <div class="col-md-4 offset-md-4">
-                    <span class="light-text" style="display: inline-block">${{ format($tax) }}</span>
+                    <span class="light-text" style="display: inline-block">BDT {{ format($tax) }}</span>
                 </div>
             </div>
             <div class="row">
@@ -138,7 +138,7 @@
                     <span>Total</span>
                 </div>
                 <div class="col-md-4 offset-md-4">
-                    <span class="text-right" style="display: inline-block">${{ format($total) }}</span>
+                    <span class="text-right" style="display: inline-block">BDT {{ format($total) }}</span>
                 </div>
             </div>
             <hr>

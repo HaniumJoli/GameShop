@@ -32,7 +32,7 @@
                     <div class="card view overlay zoom">
                         <img src="{{ productImage($game->image) }}" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $game->name }}<span class="float-right">$ {{ format($game->price) }}</span></h5>
+                            <h5 class="card-title">{{ $game->name }}<span class="float-right">BDT {{ format($game->price) }}</span></h5>
                             {{-- <div class="product-actions" style="display: flex; align-items: center; justify-content: center">
                                 <a class="cart" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fas fa-cart-plus"></i></a>
                                 <a class="like" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fa fa-thumbs-up"></i></a>
@@ -62,7 +62,7 @@
                     <div class="card view overlay zoom">
                         <img src="{{ productImage($game->image) }}" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $game->name }}<span class="float-right">$ {{ format($game->price) }}</span></h5>
+                            <h5 class="card-title">{{ $game->name }}<span class="float-right">BDT {{ format($game->price) }}</span></h5>
                             {{-- <div class="product-actions" style="display: flex; align-items: center; justify-content: center">
                                 <a class="cart" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fas fa-cart-plus"></i></a>
                                 <a class="like" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fa fa-thumbs-up"></i></a>

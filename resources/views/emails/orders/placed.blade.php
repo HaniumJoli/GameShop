@@ -5,9 +5,9 @@ Your Order is sent successfully!
 <li>mail : {{ $order->billing_email }}</li>
 <li>Name : {{ $order->billing_name }}</li>
 <li>Total : {{ $order->billing_total }}</li>
-<h4>products: </h4>
-@foreach ($order->products as $product)
-    {{ $product->name }} : {{ $product->pivot->quantity }}
+<h4>Games: </h4>
+@foreach ($order->products as $game)
+    {{ $game->name }} : {{ $game->pivot->quantity }}
 @endforeach
 
 @component('mail::button', ['url' => config('app.url')])
