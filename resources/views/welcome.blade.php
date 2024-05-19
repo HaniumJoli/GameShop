@@ -7,9 +7,9 @@
     <div class="hero-content">
         <div class="col-md-4 hero-text">
             <h3>
-                Welcome to the site Welcome to the site
+                Welcome to GameShop
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda. Culpa, libero.</p>
+            <p>A place where you can buy games hassle free. </p>
             <button class="btn custom-border my-2 my-sm-0">Shop</button>
             <button class="btn custom-border my-2 my-sm-0">Contact Us</button>
         </div>
@@ -19,20 +19,20 @@
 <!-- start page content -->
 <div class="container">
     <div class="content-head">
-        <h2 style="text-align:center; font-weight: bold">Ecommerce</h2>
-        <p style="text-align: center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusamus eos quibusdam, esse voluptates voluptatibus id corporis facere neque amet alias molestias itaque ex porro architecto blanditiis distinctio maxime laboriosam.</h2>
+        <h2 style="text-align:center; font-weight: bold">Games</h2>
+        <p style="text-align: center">GameShop gives you full control over your choices, and there always are discounts on a lot of games.</h2>
     </div>
-    <h2 class="header text-center">Featured Products</h2>
+    <h2 class="header text-center">Featured Games</h2>
     <!-- start products row -->
     <div class="row">
-        @foreach ($products as $product)
+        @foreach ($products as $game)
             <!-- start single product -->
             <div class="col-md-6 col-sm-12 col-lg-4 product">
-                <a href="{{ route('shop.show', $product->slug) }}" class="custom-card">
+                <a href="{{ route('shop.show', $game->slug) }}" class="custom-card">
                     <div class="card view overlay zoom">
-                        <img src="{{ productImage($product->image) }}" class="card-img-top img-fluid" alt="...">
+                        <img src="{{ productImage($game->image) }}" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $product->name }}<span class="float-right">$ {{ format($product->price) }}</span></h5>
+                            <h5 class="card-title">{{ $game->name }}<span class="float-right">$ {{ format($game->price) }}</span></h5>
                             {{-- <div class="product-actions" style="display: flex; align-items: center; justify-content: center">
                                 <a class="cart" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fas fa-cart-plus"></i></a>
                                 <a class="like" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fa fa-thumbs-up"></i></a>
@@ -55,14 +55,14 @@
     <h2 class="header text-center">Hot Sales</h2>
     <!-- start products row -->
     <div class="row">
-        @foreach ($hotProducts as $product)
+        @foreach ($hotProducts as $game)
             <!-- start single product -->
             <div class="col-md-6 col-sm-12 col-lg-4 product">
-                <a href="{{ route('shop.show', $product->slug) }}" class="custom-card">
+                <a href="{{ route('shop.show', $game->slug) }}" class="custom-card">
                     <div class="card view overlay zoom">
-                        <img src="{{ productImage($product->image) }}" class="card-img-top img-fluid" alt="...">
+                        <img src="{{ productImage($game->image) }}" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $product->name }}<span class="float-right">$ {{ format($product->price) }}</span></h5>
+                            <h5 class="card-title">{{ $game->name }}<span class="float-right">$ {{ format($game->price) }}</span></h5>
                             {{-- <div class="product-actions" style="display: flex; align-items: center; justify-content: center">
                                 <a class="cart" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fas fa-cart-plus"></i></a>
                                 <a class="like" href="#" style="margin-right: 1em"><i style="color:blue; font-size: 1.3em" class="fa fa-thumbs-up"></i></a>

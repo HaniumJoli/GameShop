@@ -4,5 +4,6 @@
     ],
     "cSpell.ignoreWords": [
         "aloglia"
-    ]
+    ],
+    "editor.acceptSuggestionOnEnter": "on"
 }

@@ -16,11 +16,24 @@ class ProductsTableSeeder extends Seeder
     {
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'laptop' . $i,
-                'slug' => 'laptop-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'Call of Duty' . $i,
+                'slug' => 'call-of-duty-' . $i,
+                'details' => 'A fast paced first person shooter game',
+                'price' => rand(1000, 5000),
                 'category_id' => 1,
+                'image' => 'products/dummy/image0.jpg',
+                'images' => '["products/dummy/image1.jpg", "products/dummy/image1.jpg", "products/dummy/image1.jpg"]',
+                'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.',
+                'quantity' => 10
+            ]);
+        }
+        for ($i=0; $i < 20; $i++) {
+            Product::create([
+                'name' => 'Assassin\'s Creed' . $i,
+                'slug' => 'assassins-creed-' . $i,
+                'details' => 'A stealth action adventure game',
+                'price' => rand(1000, 5000),
+                'category_id' => 2,
                 'image' => 'products/dummy/image0.jpg',
                 'images' => '["products/dummy/image0.jpg", "products/dummy/image0.jpg", "products/dummy/image0.jpg"]',
                 'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.',
@@ -29,23 +42,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'Desktop' . $i,
-                'slug' => 'desktop-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
-                'category_id' => 2,
-                'image' => 'products/dummy/image1.jpg',
-                'images' => '["products/dummy/image1.jpg", "products/dummy/image1.jpg", "products/dummy/image1.jpg"]',
-                'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, nisi. Exercitationem, explicabo obcaecati dicta libero inventore soluta ducimus, necessitatibus quaerat magnam sapiente mollitia eum beatae quidem et perferendis quis similique.',
-                'quantity' => 10
-            ]);
-        }
-        for ($i=0; $i < 20; $i++) {
-            Product::create([
-                'name' => 'Phone' . $i,
-                'slug' => 'phone-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'FIFA 19' . $i,
+                'slug' => 'fifa-19-' . $i,
+                'details' => 'The best football game in the world',
+                'price' => rand(1000, 3000),
                 'category_id' => 3,
                 'image' => 'products/dummy/image2.jpg',
                 'images' => '["products/dummy/image2.jpg", "products/dummy/image2.jpg", "products/dummy/image2.jpg"]',
@@ -55,10 +55,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'Tablet' . $i,
-                'slug' => 'tablet-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'Mario Bros' . $i,
+                'slug' => 'mario-bros-' . $i,
+                'details' => 'A fun adventure game for kids',
+                'price' => rand(1000, 3999),
                 'category_id' => 4,
                 'image' => 'products/dummy/image3.jpg',
                 'images' => '["products/dummy/image3.jpg", "products/dummy/image3.jpg", "products/dummy/image3.jpg"]',
@@ -68,10 +68,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'TV' . $i,
-                'slug' => 'tv-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'Civilization' . $i,
+                'slug' => 'civilization-' . $i,
+                'details' => 'Build an empire to stand the test of time',
+                'price' => rand(1000, 2999),
                 'category_id' => 5,
                 'image' => 'products/dummy/image4.jpg',
                 'images' => '["products/dummy/image4.jpg", "products/dummy/image4.jpg", "products/dummy/image4.jpg"]',
@@ -81,10 +81,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'Camera' . $i,
-                'slug' => 'camera-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'The Witcher' . $i,
+                'slug' => 'the-witcher-' . $i,
+                'details' => 'Hunt monsters in a medieval world',
+                'price' => rand(1000, 3999),
                 'category_id' => 6,
                 'image' => 'products/dummy/image5.jpg',
                 'images' => '["products/dummy/image5.jpg", "products/dummy/image5.jpg", "products/dummy/image5.jpg"]',

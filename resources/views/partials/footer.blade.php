@@ -8,22 +8,21 @@
                 </div>
                 <div class="col-md-4">
                     <h3>
-                        Welcome to the site
+                        GameShop
                     </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, assumenda. Culpa, libero.</p>
+                    <p>Your one stop solution for everything fun</p>
                 </div>
                 <div class="col-md-4">
                     <h3>
                         Contact:
                     </h3>
-                    <p>Email: mohammedomer789@gmail.com</p>
-                    <p>Website: <a href="https://mhmdomer.com">Personal Website</a></p>
-                    <p>Github: <a href="https://github.com/mhmdomer">@mhmdomer</a></p>
-                    <p>Twitter: <a href="https://twitter.com/mhmdomer_">@mhmdomer_</a></p>
-                    <p>LinkedIn: <a href="https://linkedin.com/in/mohammed-omer-ali">Mohammed Omer</a></p>
+                    <p>Email: haniumjoli1015@gmail.com</p>
+                    <p>Website: <a href="https://haniumjoli.github.io/Personal-Portfolio-Website/">Personal Website</a></p>
+                    <p>Github: <a href="https://github.com/HaniumJoli">@HaniumJoli</a></p>
+                    <p>LinkedIn: <a href="https://linkedin.com/in/hanium-maria-joli">Hanium Maria Joli</a></p>
                 </div>
             </div>
         </div>
-        <p>copyright &copy; Mohammed Omer Ali - All rights reserved 2019</p>
+        <p>copyright &copy; Hanium Maria Joli - All rights reserved 2024</p>
     </div>
 </footer>
