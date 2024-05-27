@@ -129,7 +129,7 @@ class LoginController extends Controller
     {
         $request->session()->regenerate();
 
-        $this->clearLoginAttempts($request);
+        //$this->clearLoginAttempts($request);
 
         if ($response = $this->authenticated($request, $this->guard()->user())) {
             return $response;
