@@ -1,4 +1,4 @@
-# ecommerce-laravel-fullstack
+# GameShop - Built with Laravel
 
 
 ## Features
