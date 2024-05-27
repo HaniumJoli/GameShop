@@ -26,5 +26,6 @@ class VoyagerDatabaseSeeder extends Seeder
         $this->call(PermissionsTableSeeder::class);
         $this->call(PermissionRoleTableSeeder::class);
         $this->call(SettingsTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
     }
 }
